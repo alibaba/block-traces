@@ -24,7 +24,7 @@ Filename                           | MD5 checksum
 
 There are two files in CSV format.  Their file format is defined as follow.
 
-*io\_traces.csv*
+**io\_traces.csv**
 
 Each row is a read or write operation.
 
@@ -36,7 +36,7 @@ offset     | uint64  | 126703644672     | Offset of this operation, in bytes
 length     | uint32  | 4096             | Length of this operation, in bytes
 timestmap  | uint64  | 1577808000000626 | Timestamp of this operation received by server, in microseconds
 
-*device\_size.csv*
+**device\_size.csv**
 
 Each row is a device with is capacity.
 
