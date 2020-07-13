@@ -28,22 +28,22 @@ There are two files in CSV format.  Their file format is defined as follow.
 
 Each row is a read or write operation.
 
-Column     | Type    | Example          | Description
------------|---------|------------------|-----------------------
-device\_id | uint32  | 0                | ID of the virtual disk
-opcode     | char    | R                | Either of 'R' or 'W', indicating this operation is read or write
-offset     | uint64  | 126703644672     | Offset of this operation, in bytes
-length     | uint32  | 4096             | Length of this operation, in bytes
-timestmap  | uint64  | 1577808000000626 | Timestamp of this operation received by server, in microseconds
+Column      | Type     | Example            | Description
+------------|----------|--------------------|-----------------------
+`device_id` | `uint32` | `0`                | ID of the virtual disk
+`opcode`    | `char`   | `R`                | Either of 'R' or 'W', indicating this operation is read or write
+`offset`    | `uint64` | `126703644672`     | Offset of this operation, in bytes
+`length`    | `uint32` | `4096`             | Length of this operation, in bytes
+`timestamp` | `uint64` | `1577808000000626` | Timestamp of this operation received by server, in microseconds
 
 **device\_size.csv**
 
 Each row is a device with is capacity.
 
-Column     | Type   | Example         | Description
------------|--------|-----------------|------------------------------------------
-device\_id | uint32 | 0               | ID of the virtual disk
-capacity   | uint64 | 536870912000    | Capacity of the virtual disk, in bytes
+Column      | Type     | Example        | Description
+------------|----------|----------------|------------------------------------------
+`device_id` | `uint32` | `0`            | ID of the virtual disk
+`capacity`  | `uint64` | `536870912000` | Capacity of the virtual disk, in bytes
 
 All IDs of virtual disks are re-mapped to the range of 0 - 999.
 
