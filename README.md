@@ -2,7 +2,7 @@
 
 These traces are published by Alibaba Group to help researchers understand the real-world workload in the cloud.
 
-They are collected from a cluster in production of the olastic block service of Alibaba Cloud (i.e. storage for virtual disks).  The cluster is located in Beijing region, one of the most popular regions of Alibaba Cloud.
+They are collected from a cluster in production of the elastic block service of Alibaba Cloud (i.e. storage for virtual disks).  The cluster is located in Beijing region, one of the most popular regions of Alibaba Cloud.
 
 There are 1000 virtual disks randomly sampled from that cluster, and all their I/O activities are recorded over the month of January 2020.  These virtual disks are *ultra disk* products.  Ultra disks are backed by a storage cluster and offer high data reliability.  Ultra disks are cheaper and offer lower random I/O performance, compared to standard SSD and enhanced SSD disks [link](https://www.alibabacloud.com/help/doc-detail/25383.htm).  Typical applications of ultra disks are running operating systems, big data processing software, web servers, etc..
 
