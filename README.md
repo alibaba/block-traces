@@ -51,7 +51,7 @@ All IDs of virtual disks are re-mapped to the range of 0 - 999.
 
 Here is a list of research work based on the trace data.  If your paper uses the data, it would be great to let us know and add your work to this list.
 
-* An In-Depth Analysis of Cloud Block Storage Workloads in Large-Scale Production, Jinhong Li, Qiuping Wang, Patrick P. C. Lee, and Chao Shi, IISWC 2020
+* [An In-Depth Analysis of Cloud Block Storage Workloads in Large-Scale Production](http://www.cse.cuhk.edu.hk/~pclee/www/pubs/iiswc20.pdf), Jinhong Li, Qiuping Wang, Patrick P. C. Lee, and Chao Shi, IISWC 2020
 
 ## Acknowledgements
 
