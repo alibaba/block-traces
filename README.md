@@ -51,6 +51,8 @@ All IDs of virtual disks are re-mapped to the range of 0 - 999.
 
 Here is a list of research work based on the trace data.  If your paper uses the data, it would be great to let us know and add your work to this list.
 
+[Alibaba Innovative Reseach (AIR)](https://damo.alibaba.com/air/) program sponsors research every year on various area in computer science that solve the real problems in industry scenarios.  If you have fancy ideas and are interested in participating in this program, feel free to contact Chao Shi \<chao.shi@alibaba-inc.com\>.
+
 * [An In-Depth Analysis of Cloud Block Storage Workloads in Large-Scale Production](http://www.cse.cuhk.edu.hk/~pclee/www/pubs/iiswc20.pdf), Jinhong Li, Qiuping Wang, Patrick P. C. Lee, and Chao Shi, IISWC 2020
 
 ## Acknowledgements
